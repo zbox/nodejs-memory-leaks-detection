@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-memory-leaks-detection",
+  "description": "Detecting NodeJS memory leaks & garbage collection issues",
+  "version": "1.0.0",
+  "author": {
+    "name": "Alexander Zhukov",
+    "email": "zbox82@gmail.com"
+  },
+  "license": "MIT",
+  "tags": [
+    "nodejs",
+    "gc",
+    "memory leaks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zbox/nodejs-memory-leaks-detection.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
